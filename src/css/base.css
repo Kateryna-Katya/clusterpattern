@@ -13,7 +13,7 @@ h2{
     line-height: 1.04;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     color: #f72856;
     margin-bottom: 16px;
 }
@@ -24,4 +24,13 @@ h3{
     line-height: 1.44;
     color: #1a1a1a;
     margin-bottom: 24px;
+}
+@media only screen and (min-width: 1440px) {
+  body{
+    font-size: 18px;
+  }
+  h3{
+    font-size: 42px;
+    margin-bottom: 48px;
+  }
 }
