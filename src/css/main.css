@@ -277,3 +277,48 @@ width: 384px;
     height: 194px;
 }  
 }
+/* Player Benefits */
+.benefits-section{
+    background-image: url("/img/benefits/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    height: 607px;
+}
+.benefits-section h2,
+.benefits-section h3{
+text-align: center;
+}
+.benefits-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.benefits-item{
+border: 1px solid #1a1a1a;
+    border-radius: 50px;
+    padding: 12px 20px;
+color: #606060;
+}
+@media only screen and (min-width: 1440px) {
+.benefits-section{
+    background-image: url("/img/benefits/desk.png");
+height: 640px;
+}
+.benefits-list{
+width: 864px;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+gap: 24px;
+}
+.benefits-item{
+border: 1px solid #1a1a1a;
+    border-radius: 50px;
+    padding: 12px 20px;
+color: #606060;
+}    
+}
