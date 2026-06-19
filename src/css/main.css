@@ -411,8 +411,6 @@ background-color: #1a0b4c;
     max-height: 500px;
 
 }
-
-
 @media only screen and (min-width: 1440px) {
     .faq-acc {
         width: 864px;
@@ -425,4 +423,73 @@ font-size: 20px;
     .mob{
         display: none;
     }
+}
+/* Contact */
+.contact-section{
+background: #fc7408;
+}
+.contact-wrapper{
+border-radius: 32px;
+    padding: 32px 16px;
+    width: 343px;
+    height: 213px;
+background: #1a0b4c;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.contact-wrapper h2,
+.contact-wrapper h3{
+color: #fff;
+}
+.contact-wrapper h3 {
+    margin-bottom: 32px;
+}
+.contact-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+        padding: 8px;
+        width: 311px;
+        height: 46px;
+background: #fff;
+padding-left: 20px;
+}
+.contact-link p{
+font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.44;
+    text-align: center;
+    color: #170227;
+}
+.contact-img{
+width: 30px;
+    height: 30px;
+}
+@media only screen and (min-width: 1440px) {
+.contact-section{
+margin-top: -1px;
+}
+.contact-wrapper{
+border-radius: 64px;
+    padding: 64px 0px;
+    width: 864px;
+    height: 325px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-link{
+    width: 440px;
+    height: 74px;
+    padding-left: 40px;
+}
+.contact-link p{
+font-size: 26px;
+}  
+.contact-img {
+width: 58px;
+    height: 58px;
+}
 }
